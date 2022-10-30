@@ -1,0 +1,217 @@
+/* 757575 text body */
+/* 2196F3 color akcent */
+/* 212121 head color */
+/* FFFFFF bgd & title text color*/
+:root{
+    --akcent-color:#2196F3;
+    --title-color:#212121;
+    --descr-color:#757575 ;
+    --bgd-color:#FFFFFF;
+    --logo-color:#000000;
+    --footer-color:#2F303A;
+}
+
+body{
+    background-color: var(--bgd-color);
+    font-family: Roboto;
+    font-size: 16px;
+    color: var(--descr-color);
+}
+
+/*верхня лінія*/
+
+.top-line-bg{
+  
+    
+   
+}
+
+.logo{
+    color:var(--logo-color);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+   
+}
+
+.logo-stile{
+    color: var(--akcent-color);
+}
+
+.menu{
+    
+}
+
+.menu-nav{
+    color: var(--title-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    
+   
+  
+}
+
+.menu-nav:hover,:focus{
+    color: var(--akcent-color);
+}
+
+.menu-contact{
+    color: var(--descr-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+   
+}
+
+.menu-contact:hover,:focus{
+    color: var(--akcent-color);
+}
+
+/* шапка*/
+
+.ideas{
+    width: 1600px;
+    height: 600px;
+    margin-top: 80px;
+    background-color: var(--footer-color);
+}
+
+.ideas-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    color: var(--bgd-color);
+}
+
+.button{
+    color: var(--bgd-color);
+    background-color: var(--akcent-color);
+    border: var(--akcent-color);
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    width: 216px;
+    height: 50px;
+}
+
+.speciality{
+   
+}
+
+.speciality-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-color);
+}
+
+.practice{
+    
+}
+
+.practice-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: var(--title-color);
+}
+
+.team{
+
+}
+
+.team-title{
+    color: var(--title-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.person-title{
+    color: var(--title-color);
+}
+
+.footer{
+    background-color: var(--footer-color);
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2094px;
+
+}
+
+.logo-footer{
+    color: var(--bgd-color);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    
+    
+    
+}
+
+.footer-contact{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;  
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contact:hover,:focus{
+    color: var(--akcent-color);
+}
+
+.footer-adress{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--bgd-color);
+}
+
+.footer-adress:hover,:focus{
+    color: var(--akcent-color);
+}
+
+/*portfolio*/
+
+.project-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    color: var(--title-color);
+} 
+
+button{
+    color: var(--bgd-color);
+    background-color: var(--akcent-color);
+    cursor: pointer;
+    border: var(--akcent-color);
+    border-radius: 4px;
+}
+
+li{
+    list-style: none;
+}
