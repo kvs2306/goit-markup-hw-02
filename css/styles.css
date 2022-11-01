@@ -9,6 +9,7 @@
     --bgd-color:#FFFFFF;
     --logo-color:#000000;
     --footer-color:#2F303A;
+    --contact-color:rgba(255, 255, 255, 0.6);
 }
 
 body{
@@ -16,6 +17,7 @@ body{
     font-family: Roboto, sans-serif;
     font-size: 16px;
     color: var(--descr-color);
+    letter-spacing: 0.03em;
 }
 
 /*верхня лінія*/
@@ -27,6 +29,7 @@ body{
 .logo{
     color:var(--logo-color);
     font-family: 'Raleway';
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
@@ -44,16 +47,21 @@ body{
 
 .menu-nav{
     color: var(--title-color);
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    text-decoration: none;    
+    letter-spacing: 0.02em;
+    text-decoration: none; 
 }
 
 .curent{
     text-decoration: none;
     color: var(--akcent-color);
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .menu-nav:hover,:focus{
@@ -62,8 +70,10 @@ body{
 
 .menu-contact{
     color: var(--descr-color);
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.02em;
     text-decoration: none;
 }
 
@@ -81,8 +91,10 @@ body{
 }
 
 .ideas-title{
+    font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    letter-spacing: 0.06em;
     color: var(--bgd-color);
     text-transform: uppercase;
 }
@@ -95,8 +107,10 @@ body{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     width: 216px;
     height: 50px;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
+    letter-spacing: 0.06em;
     cursor: pointer;
 }
 
@@ -105,6 +119,7 @@ body{
 }
 
 .speciality-title{
+    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
@@ -116,6 +131,7 @@ body{
 }
 
 .practice-title{
+    font-weight: 700;
     font-size: 36px;
     line-height: 1,17;
     color: var(--title-color);
@@ -127,12 +143,14 @@ body{
 
 .team-title{
     color: var(--title-color);
+    font-weight: 700;
     font-size: 36px;
     line-height: 1,17;
 }
 
 .person-title{
     color: var(--title-color);
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
 }
@@ -149,7 +167,9 @@ body{
 .logo-footer{
     color: var(--bgd-color);
     font-family: 'Raleway';
+    font-weight: 700;
     font-size: 26px;
+    line-height: 1.19;
     text-decoration: none;
     
     
@@ -158,7 +178,7 @@ body{
 .footer-contact{
     font-size: 14px;
     line-height: 1.71;  
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--contact-color);
     text-decoration: none;
 }
 
@@ -178,16 +198,16 @@ body{
 }
 
 .adress-footer{
-    font-style: normal;
+    
 }
 
 /*portfolio*/
 
 .project-title{
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em;
     color: var(--title-color);
 } 
 
@@ -195,8 +215,4 @@ body{
 color: var(--bgd-color);
 background-color: var(--akcent-color);
 cursor: pointer;
-}
-
-li{
-    list-style: none;
 }
