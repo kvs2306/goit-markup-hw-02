@@ -212,7 +212,11 @@ body{
 } 
 
 .button-filters :hover, :focus{
-color: var(--bgd-color);
-background-color: var(--akcent-color);
-cursor: pointer;
+    color: var(--bgd-color);
+    background-color: var(--akcent-color);
+    cursor: pointer;
+}
+
+.list{
+    list-style: none;
 }
