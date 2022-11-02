@@ -221,7 +221,10 @@ body{
 
 .title:hover,
 .title:focus{
-    color: var(--akcent-color);
+    color:var(--akcent-color);
+    background-color: var(--bgd-color);
+    border-radius: 6px;
+    border-color: var(--akcent-color);
 }
 
 .title{
