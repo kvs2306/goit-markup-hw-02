@@ -219,9 +219,9 @@ body{
     color: var(--title-color);
 } 
 
-.button-filters:hover,
-.button-filters:focus{
-
+.title:hover,
+.title:focus{
+    color: var(--akcent-color);
 }
 
 .title{
