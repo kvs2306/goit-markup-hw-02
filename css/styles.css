@@ -23,7 +23,14 @@ body{
 /*верхня лінія*/
 
 .top-line-bg{
-    
+    box-sizing: border-box;
+    min-width: 1200px;
+    background-color: aqua;
+    margin:0 auto;
+    padding: 24px 15px;
+    display: flex;
+    flex-direction: row;
+
 }
 
 .logo{
@@ -33,6 +40,14 @@ body{
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
+    background-color: blanchedalmond;
+    width: 145px;
+    box-sizing: border-box;
+    margin: 24px 0  24px 15px;
+    
+
+    
+    
 }
 
 .logo-stile{
@@ -40,10 +55,22 @@ body{
 }
 
 .menu{
+    background-color: blueviolet;
+    box-sizing: border-box;
+    min-width: 281px;
+    margin-left: 93px;
     
+
 }
 
-
+.decoration{
+    box-sizing: content-box;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: row;
+    margin-left: 318px;
+    
+}
 
 .menu-nav{
     color: var(--title-color);
@@ -52,6 +79,8 @@ body{
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none; 
+    
+    
 }
 
 .curent{
@@ -62,6 +91,7 @@ body{
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+    
 }
 
 .menu-nav:hover,
@@ -76,6 +106,7 @@ body{
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+    margin: 32px 15px;
 }
 
 .menu-contact:hover,
@@ -234,11 +265,12 @@ body{
     line-height: 1.6;
     color: var(--title-color);
     list-style: none;
-    padding: 6px 22px 6px 22px;
+    padding: 6px 22px;
     margin-bottom: 8px;
 }
 
 
 .list{
     list-style: none;
+   
 }
